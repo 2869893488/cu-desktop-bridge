@@ -1,0 +1,14 @@
+# This repository must never contain official binaries or build output.
+node_modules/
+dist/
+payload/
+payloads/
+release-out/
+*.exe
+*.dll
+*.zip
+*.msi
+*.7z
+*.pdb
+*.ilk
+*.log

@@ -1,0 +1,322 @@
+{
+  "schemaVersion": 1,
+  "payload": {
+    "name": "kimi-cu-win",
+    "version": "0.3.10",
+    "files": [
+      {
+        "path": "bin/agent-readiness.mjs",
+        "size": 3626,
+        "sha256": "418c3489a89dc7d744aa35219de91fb10a589d40c7f319ff6f696ede7564f8b7"
+      },
+      {
+        "path": "bin/kimi-cu-mcp.cmd",
+        "size": 270,
+        "sha256": "eb3f02e7dd85909d59ec37daddf80223aa7b6e1fd3de722c9f776b2952b768e2"
+      },
+      {
+        "path": "bin/launch.mjs",
+        "size": 5237,
+        "sha256": "fe2e5a1a814f5dc0c86ba12e3402598f039f6ea5d940f72d4662f969dd93b56e"
+      },
+      {
+        "path": "bin/native-bootstrap.mjs",
+        "size": 3453,
+        "sha256": "a51a5d298eb10660b997753a93e53c0bc6f58698416a7852b12c376996b4ed04"
+      },
+      {
+        "path": "bundle.json",
+        "size": 8602,
+        "sha256": "823903608ce503721df9c11741c9df89cbb181beda1b81c6e2eb8c738417d190"
+      },
+      {
+        "path": "kimi.plugin.json",
+        "size": 3911,
+        "sha256": "c0af1e73d1e65c1840f110bd11673be4a9ac73eec5b8b2f947835e76fcbc3ca0"
+      },
+      {
+        "path": "licenses/KIMICU-THIRD-PARTY-NOTICES.md",
+        "size": 1499,
+        "sha256": "ff564924ccc05f9c371d447ab928873dd52f286aa5151eb431ff2db382722af8"
+      },
+      {
+        "path": "licenses/NODE-REPL-THIRD-PARTY-NOTICES.md",
+        "size": 955,
+        "sha256": "dbf7c3f31dff6ef68d45c7f32a7d4bc90d66b1f3c73cddee4b28e41c1ba04314"
+      },
+      {
+        "path": "locales/en-US.json",
+        "size": 1040,
+        "sha256": "2f49f63153070d0ebc57f43da8dd19f4af719bf6de97b0a7498e2194dc691f10"
+      },
+      {
+        "path": "public/node_modules/@kimi/cu/index.mjs",
+        "size": 2399,
+        "sha256": "5ba68fbe41d33540da1ad41a1f47b9c3c7db881b219e89a03e5163f077e84966"
+      },
+      {
+        "path": "public/node_modules/@kimi/cu/package.json",
+        "size": 127,
+        "sha256": "3a2a062f279d192dd41d3d551bee143d7e4f58fa7a5e20729c9077a0bf127779"
+      },
+      {
+        "path": "README.md",
+        "size": 9792,
+        "sha256": "00fe515e995ae454d1bd3b9f01efecd2a41e63b30466ce8081ca754eeb4c08c0"
+      },
+      {
+        "path": "runtime/cell-compiler.mjs",
+        "size": 24630,
+        "sha256": "84ce183a659b0f5c1be31ee581e89d03972387fdf308f9bf43b6a48f3ef1761a"
+      },
+      {
+        "path": "runtime/image-output.mjs",
+        "size": 3217,
+        "sha256": "33611e9d1f94ff9440f4641b1ed218b9738a37628f567b9ab64498482a5c524a"
+      },
+      {
+        "path": "runtime/kernel-protocol.mjs",
+        "size": 5419,
+        "sha256": "e0bb6784d71a0d12a8ca66c9b7ecac2d7d57a9d96bcbcd65fca1a4c08eda05c7"
+      },
+      {
+        "path": "runtime/kernel.mjs",
+        "size": 36585,
+        "sha256": "0ab1eef139b2edb86490129801201b3a53e922e3bed4c145fc567863c45f8117"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/CHANGELOG.md",
+        "size": 76706,
+        "sha256": "1d053ffaa5aae9dc024788e0c2702a65f6f178e4e7b2b1785cc7b90c29a328d9"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/dist/meriyah.cjs",
+        "size": 324880,
+        "sha256": "83e4c192176194c0d6cd68b48c6f038ad386a5709092b17347f0615c9c131dcf"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/dist/meriyah.min.mjs",
+        "size": 133545,
+        "sha256": "d29a5ff8e5fbdb8cb0617a721891fb1d3fb107883dc6f4ee9bda5b32896edf50"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/dist/meriyah.mjs",
+        "size": 324798,
+        "sha256": "da92b4397dab91ef779350a133063d7386d29c10d7952188e6cc53626e09f893"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/dist/meriyah.umd.js",
+        "size": 343593,
+        "sha256": "068c243a858c92d6993361d032c531a7df71999138deaf8b3a9e5b44a4694769"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/dist/meriyah.umd.min.js",
+        "size": 133753,
+        "sha256": "cf33b925eeb0e22fdb657fde76f8cbb074cba0cf23eb97581b004ba61bc70900"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/dist/types/chars.d.ts",
+        "size": 2668,
+        "sha256": "c504a8924cb51adffea388e74ca3c5299e88672759dc98e08f32e4f8f40c964f"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/dist/types/common.d.ts",
+        "size": 3873,
+        "sha256": "ad6cb36e9e13efce466c14934d6da8ca8d35a3583c3ca67e3d818412251e13d2"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/dist/types/errors.d.ts",
+        "size": 5983,
+        "sha256": "a850cf85a565d05fb76feb8244e7709bd0d5f2adc325f53a39873f4d3b9265bb"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/dist/types/estree.d.ts",
+        "size": 19608,
+        "sha256": "64c81fdedfe0da45b05b769b0410616b93d03eabf09383b42a7c293d63a5df33"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/dist/types/lexer/charClassifier.d.ts",
+        "size": 622,
+        "sha256": "7dc0c572be155b9616c2abbf49d2831d035e67aa054a9ffcc4a73eb678c38933"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/dist/types/lexer/comments.d.ts",
+        "size": 752,
+        "sha256": "551a44100fd1ba72c83da87392488fc1bebd90393a09bb8246ec30f54a8c00e2"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/dist/types/lexer/common.d.ts",
+        "size": 861,
+        "sha256": "abe843bb28ec34403c55471c71eccd7d2ca0be625ab88325e2de7df12c794f44"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/dist/types/lexer/decodeHTML.d.ts",
+        "size": 64,
+        "sha256": "6b8fa0c42683140015ee4420fc615eac4adc991cbc7dbdb59fec8304bcca7ebd"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/dist/types/lexer/identifier.d.ts",
+        "size": 518,
+        "sha256": "b8fbc10970a6b59d7c88ca1f335deaf13762292e316a1a3be7f7e140f115b0df"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/dist/types/lexer/index.d.ts",
+        "size": 196,
+        "sha256": "fad245e96edda975f9b518459b12cd61d94882df4b3b6ec8892f15724fb38ee9"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/dist/types/lexer/jsx.d.ts",
+        "size": 340,
+        "sha256": "41fc0034fdbde1a90e8b5c5b8d792d66c2829185efe651e9e179ee99bf8853b6"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/dist/types/lexer/numeric.d.ts",
+        "size": 253,
+        "sha256": "19c8d8d97e8b05f0f38d9add37054cc3a853ee2b6b4172d809f87687d0b14136"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/dist/types/lexer/regexp.d.ts",
+        "size": 152,
+        "sha256": "6a5b8c5cced2c01d269be8402a32be1b6a4cc8fd80213a03e7a9e1b594fca81b"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/dist/types/lexer/scan.d.ts",
+        "size": 334,
+        "sha256": "23b711e4886267af145f4092cc387767e6e301d007f0baa6caa1451ee9184769"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/dist/types/lexer/string.d.ts",
+        "size": 561,
+        "sha256": "8357e51a871ffba7b0486e08d2defa5a6acf4bbf6108a5d5d00f8bc67845f35c"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/dist/types/lexer/template.d.ts",
+        "size": 281,
+        "sha256": "37e52ece513c41c57c209d467d493a31834cdeb783367fec196035fc346f1536"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/dist/types/meriyah.d.ts",
+        "size": 466,
+        "sha256": "43e1341726a489b0379ddc27b146e2289191520745e51ae9b3029cadf70ebd22"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/dist/types/options.d.ts",
+        "size": 1169,
+        "sha256": "7b2f927e0beaad42a788cd29edf64c2d161f8057ea2c683ef23dba0114428efe"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/dist/types/parser.d.ts",
+        "size": 229,
+        "sha256": "987116155bce9bef1cbf4e6762017f1419d53f77c3dd9f1dd7b5e9f3851fdf46"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/dist/types/parser/parser.d.ts",
+        "size": 2009,
+        "sha256": "b801fc52d3a333d6a2f8f2e9e5c5593c1f0221b1cd03c92ba21b1a341dc2cc96"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/dist/types/parser/private-scope.d.ts",
+        "size": 648,
+        "sha256": "d121cf4e579d40c0f83d31ff1627d4e4808399429aff200210f1d3ca9e9e197b"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/dist/types/parser/scope.d.ts",
+        "size": 1362,
+        "sha256": "e49091d1894e65bed5f7d11ae0d3e23467c1150f4a8592b9a07938d61663263f"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/dist/types/token.d.ts",
+        "size": 4448,
+        "sha256": "914dc3909e24409ce44b722002ea9bed70d94c01b1adef059ac1e9bbf6db8867"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/dist/types/unicode.d.ts",
+        "size": 121,
+        "sha256": "88dfaeb998d0937793b793d6f73e458a7c682550b06a37c1140e55f84af16a69"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/dist/types/utilities.d.ts",
+        "size": 116,
+        "sha256": "b87af5ed0cd16f5fa389e6ae46566c09222ada3564ffd0463e7e737c12bd2e3a"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/LICENSE.md",
+        "size": 760,
+        "sha256": "e9a5df5a6ae5cd51ca430715f4c62fb5424946e8da07b7caa058a1ba0582a848"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/package.json",
+        "size": 3809,
+        "sha256": "72c3e522f064af2a3ed54a4d9818f8cf161edc191d8b997bc5153d1be0344bef"
+      },
+      {
+        "path": "runtime/node_modules/meriyah/README.md",
+        "size": 7852,
+        "sha256": "7a33b7c082ec615309b1774955f206d02b523beddb5a0b0a6527482b147b0de0"
+      },
+      {
+        "path": "runtime/node-repl.exe",
+        "size": 1944448,
+        "sha256": "2d27cc8a70816eb53b4c5a11c036634427ff51bd37c3f2c45c074b3d6aa8aa25"
+      },
+      {
+        "path": "runtime/trusted-protocol.mjs",
+        "size": 13155,
+        "sha256": "15f1164b45acbd784a8c15573aff10c6aeacf5f654db314cb27296d356c1b056"
+      },
+      {
+        "path": "runtime/trusted-worker.mjs",
+        "size": 40503,
+        "sha256": "e2e0b1377f49ed828961be7168d1ccb0e0fee1b225e96996bfc4b848e94a69fd"
+      },
+      {
+        "path": "runtime/worker-runtime.mjs",
+        "size": 6757,
+        "sha256": "a8c381456e00d06fe6b54f9135367f5a457c4af511cc1ebac27dcf859808481e"
+      },
+      {
+        "path": "skills/kimi-cu/references/api.md",
+        "size": 15545,
+        "sha256": "16dc06d61d7441156aaaca18186b3e37587e722a5b785c3e8f9de10b99a28ff9"
+      },
+      {
+        "path": "skills/kimi-cu/references/repl.md",
+        "size": 9812,
+        "sha256": "567707c4706ac9cb0d5bc500121e861ae8e595d06ea3c24ae2ee856d2503616f"
+      },
+      {
+        "path": "skills/kimi-cu/SKILL.md",
+        "size": 7013,
+        "sha256": "f118e2c6ee78df4dda0f37a9cd119ded57988475cc1f277e64a5b9f8d3d3e969"
+      },
+      {
+        "path": "trusted-service/compatibility.mjs",
+        "size": 2184,
+        "sha256": "dcb3d4500407ff0ce1eaecd74bdb9fd5f1401cc6ae483a063f74bdf06a56182f"
+      },
+      {
+        "path": "trusted-service/package.json",
+        "size": 137,
+        "sha256": "1dfd1d9f225790d491d6920dd436e91ed450c7f633866b1e7e1d3595470adb63"
+      },
+      {
+        "path": "trusted-service/schema.mjs",
+        "size": 11365,
+        "sha256": "0275f86c46be9b398570a92e046f6f192aa7ee49dc545e540e503780d10d681a"
+      },
+      {
+        "path": "trusted-service/service.mjs",
+        "size": 11797,
+        "sha256": "77b8162f3c9f1ec60bcc2a81b9ec2ea5a218476c3a2452fefcaae58e8e82b479"
+      },
+      {
+        "path": "trusted-service/wire.mjs",
+        "size": 2573,
+        "sha256": "0b0b800d2e8973dc1e84ac39eee35e00ed8e7069fbbdacbb1fbdc8d5024699f1"
+      }
+    ]
+  },
+  "node": {
+    "minimumVersion": "24.15.0"
+  }
+}

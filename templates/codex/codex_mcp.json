@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "kimi-cu": {
+      "command": "__KIMI_CU_RUNTIME_DIR__/node-repl.exe",
+      "args": [],
+      "cwd": "__KIMI_CU_ROOT__",
+      "env": {
+        "PATH": "C:/Program Files/nodejs;%PATH%",
+        "LOCALAPPDATA": "%LOCALAPPDATA%",
+        "USERPROFILE": "%USERPROFILE%",
+        "SYSTEMROOT": "%SYSTEMROOT%"
+      }
+    }
+  }
+}
