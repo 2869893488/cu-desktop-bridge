@@ -1,7 +1,8 @@
 # Changelog
 
-## 0.1.0 - Unreleased
+## 0.1.0-preview.1 - 2026-11-02
 
+- 首个预览版，面向小范围测试
 - 本地官方 payload 的哈希锁定与事务化安装
 - dry-run、doctor、rollback、uninstall
 - 从安装状态生成宿主配置，写入前备份并原子替换

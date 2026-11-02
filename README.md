@@ -1,5 +1,7 @@
 # CU Desktop Bridge
 
+> 预览版本 `0.1.0-preview.1`：接口和安装流程可能变化。
+
 非官方社区项目，与 Moonshot AI、Kimi、Google Antigravity、Anthropic、OpenAI 不存在隶属、授权或背书关系。
 
 本仓库不包含、也不分发官方 KimiCU 运行时、EXE、ZIP 或官方插件源码。它只提供：
