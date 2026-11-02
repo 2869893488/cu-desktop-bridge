@@ -41,7 +41,7 @@ node scripts/apply-host-config.mjs --host workbuddy `
   --install-root "$env:LOCALAPPDATA\KimiCU-Community"
 ```
 
-JSON 合并适配器覆盖 Antigravity、WorkBuddy 和 Claude Desktop。Antigravity 与 WorkBuddy 为实验性，Claude Desktop 尚未真机验证；Codex 使用 TOML，需要手动配置。详见 docs/SUPPORT_MATRIX.md 与 docs/HOST_INTEGRATION_GUIDE.md。
+JSON 合并适配器覆盖 Antigravity、WorkBuddy 和 Claude Desktop。Antigravity 与 WorkBuddy 为实验性，Claude Desktop 尚未真机验证；Codex 使用 TOML，需要手动配置。详见 [支持矩阵](docs/SUPPORT_MATRIX.md) 与 [宿主接入指南](docs/HOST_INTEGRATION_GUIDE.md)。
 
 ## 测试
 
@@ -53,11 +53,13 @@ npm test
 
 ## 文档
 
-- 安装、升级、回滚、卸载：docs/INSTALL_UPGRADE_ROLLBACK.md
-- 支持矩阵：docs/SUPPORT_MATRIX.md
-- 已知限制：docs/KNOWN_LIMITATIONS.md
-- 安全报告：SECURITY.md
-- 发布与撤回：docs/RELEASE_PROCESS.md
+- 安装、升级、回滚、卸载：[docs/INSTALL_UPGRADE_ROLLBACK.md](docs/INSTALL_UPGRADE_ROLLBACK.md)
+- 支持矩阵：[docs/SUPPORT_MATRIX.md](docs/SUPPORT_MATRIX.md)
+- 已知限制：[docs/KNOWN_LIMITATIONS.md](docs/KNOWN_LIMITATIONS.md)
+- 安全报告：[SECURITY.md](SECURITY.md)
+- 发布与撤回：[docs/RELEASE_PROCESS.md](docs/RELEASE_PROCESS.md)
+- 变更记录：[CHANGELOG.md](CHANGELOG.md)
+- 许可证：[LICENSE](LICENSE)
 
 ## 许可证
 
