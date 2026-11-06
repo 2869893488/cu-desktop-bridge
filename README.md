@@ -43,6 +43,24 @@ node scripts/apply-host-config.mjs --host workbuddy `
 
 JSON 合并适配器覆盖 Antigravity、WorkBuddy 和 Claude Desktop。Antigravity 与 WorkBuddy 为实验性，Claude Desktop 尚未真机验证；Codex 使用 TOML，需要手动配置。详见 [支持矩阵](docs/SUPPORT_MATRIX.md) 与 [宿主接入指南](docs/HOST_INTEGRATION_GUIDE.md)。
 
+## 用 agent 安装
+
+把下面这段直接复制发给你的 agent，由它代你完成安装。前提是官方 KimiCU 已装在本机；本仓库不下载、不分发官方组件。
+
+```text
+帮我装 Kimi Code computer use 转接器：https://github.com/2869893488/kimi-code-computer-use-bridge
+前提是本机已装官方 KimiCU（没有先跑 https://cdn.kimi.com/kimi-computer-use-windows/latest/setup_windows.cmd）。
+
+先问我：目标宿主（claude-desktop/workbuddy/antigravity/codex）、宿主配置绝对路径、官方 payload 目录、版本是否 0.3.10。
+
+然后照做，任一步失败就停：
+clone 仓库 → powershell -NoProfile -File scripts/setup.ps1 -SourcePath "<payload>" -DryRun，过了再去掉 -DryRun → -Doctor 记下版本和 payloadRoot →
+node scripts/apply-host-config.mjs --host <宿主> --config-path "<配置>" --install-root "$env:LOCALAPPDATA\KimiCU-Community"，先 --dry-run 再正式写 → 重启宿主确认 js/js_reset/js_add_node_module_dir 已加载。
+codex 是 TOML，脚本不改，照 docs/HOST_INTEGRATION_GUIDE.md 手动加。
+
+别写 .kimi-code\plugins\managed\，别手工绕过脚本报错。装完报版本、备份路径、加载出的工具。
+```
+
 ## 测试
 
 ```powershell
