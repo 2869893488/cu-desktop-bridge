@@ -1,4 +1,4 @@
-# CU Desktop Bridge
+# Kimi Code Computer Use Bridge
 
 > 预览版本 `0.1.0-preview.1`：接口和安装流程可能变化。
 
